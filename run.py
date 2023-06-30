@@ -131,7 +131,7 @@ while True:
     file_count += 1
     title_locator += 3
     #display current paper no.
-    print("Current Paper No." + str(paper_count) + " has the title : " + element.text + "( Link Locator : " + str(link_locator) + " | Title Locator : " + str(title_locator) + " )")
+    print("Paper No." + str(paper_count) + " has the title : " + element.text + "( Link Locator : " + str(link_locator) + " | Title Locator : " + str(title_locator) + " )")
 
     paper_count += 1
    
