@@ -23,6 +23,8 @@ paper_count = 1
 file_count = 1
 title_locator = 2
 page_count = 201
+
+# directory to save the files
 directory = "/Users/kaungmyatkyaw/Desktop/downloaded"
 
 # Navigate to a webpage
@@ -57,6 +59,8 @@ while True:
             # Rename the file
             new_filepath = os.path.join(directory, new_filename)
             os.rename(filepath, new_filepath)
+
+        #please specify your directory here
         file_path = "/Users/kaungmyatkyaw/Desktop/downloaded/0.pdf"
         os.remove(file_path)
         i = 0
